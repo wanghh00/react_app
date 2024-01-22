@@ -20,6 +20,7 @@ export default function TargetGroup({ elements, placementAutoBox, factorNameInpu
             return (
                 <div className="SubGroup">
                     Segmentation:
+                    {placementAutoBox}
                 </div>
             );
         }
@@ -35,3 +36,4 @@ export default function TargetGroup({ elements, placementAutoBox, factorNameInpu
         </div>
     );
 }
+
